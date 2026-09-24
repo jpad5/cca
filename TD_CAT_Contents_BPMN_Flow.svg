@@ -1,0 +1,213 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="5780" height="980" viewBox="0 0 5780 980" role="img" aria-labelledby="title description">
+<title id="title">TD Insurance CAT Contents Valuation BPMN Flow</title>
+<desc id="description">BPMN flow with lanes for the licensed adjuster, Microsoft Copilot Studio, deterministic services, and governance. It includes a persistent claim-linked case store, retained inventory reuse, saved checkpoints, correction loops, deterministic valuation, mandatory human approval, and closure after external claim completion is confirmed.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#323130"/></marker><filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="2" stdDeviation="2" flood-opacity="0.14"/></filter></defs>
+<rect width="5780" height="980" fill="#ffffff"/>
+<text x="80" y="38" font-family="Segoe UI, Arial, sans-serif" font-size="25" font-weight="700" fill="#20302a">TD Insurance CAT Contents Valuation - BPMN 2.0 Draft</text>
+<text x="80" y="63" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#605e5c">Recommendation mode | Deterministic financial calculations | Licensed adjuster approval required | MVP excludes claims-system write-back</text>
+<rect x="80" y="80" width="5700" height="860" fill="none" stroke="#20302a" stroke-width="3"/>
+<rect x="110" y="80" width="5670" height="215" fill="#f3f9f1" fill-opacity="0.72" stroke="#a19f9d" stroke-width="1.5"/>
+<rect x="110" y="80" width="62" height="215" fill="#ffffff" stroke="#107c10" stroke-width="2"/>
+<g transform="translate(141 187.5) rotate(-90)"><text x="0" y="-5.32" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="600" fill="#1b1a19"><tspan x="0" dy="0">Licensed Adjuster /</tspan><tspan x="0" dy="16.52">Claims Business</tspan></text></g>
+<rect x="110" y="295" width="5670" height="205" fill="#edf5fc" fill-opacity="0.72" stroke="#a19f9d" stroke-width="1.5"/>
+<rect x="110" y="295" width="62" height="205" fill="#ffffff" stroke="#0078d4" stroke-width="2"/>
+<g transform="translate(141 397.5) rotate(-90)"><text x="0" y="-5.32" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="600" fill="#1b1a19"><tspan x="0" dy="0">Microsoft Copilot</tspan><tspan x="0" dy="16.52">Studio</tspan></text></g>
+<rect x="110" y="500" width="5670" height="260" fill="#fff7e8" fill-opacity="0.72" stroke="#a19f9d" stroke-width="1.5"/>
+<rect x="110" y="500" width="62" height="260" fill="#ffffff" stroke="#c76500" stroke-width="2"/>
+<g transform="translate(141 630) rotate(-90)"><text x="0" y="-5.32" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="600" fill="#1b1a19"><tspan x="0" dy="0">Deterministic Services /</tspan><tspan x="0" dy="16.52">Approved Tools</tspan></text></g>
+<rect x="110" y="760" width="5670" height="180" fill="#f3f2f1" fill-opacity="0.72" stroke="#a19f9d" stroke-width="1.5"/>
+<rect x="110" y="760" width="62" height="180" fill="#ffffff" stroke="#605e5c" stroke-width="2"/>
+<g transform="translate(141 850) rotate(-90)"><text x="0" y="-11" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="600" fill="#1b1a19"><tspan x="0" dy="0">Platform Controls /</tspan><tspan x="0" dy="16.52">Governance /</tspan><tspan x="0" dy="16.52">Operations</tspan></text></g>
+<polyline points="211,173 240,173" fill="none" stroke="#323130" stroke-width="2" marker-end="url(#arrow)"/>
+<polyline points="385,173 420,173" fill="none" stroke="#323130" stroke-width="2" marker-end="url(#arrow)"/>
+<polyline points="470,173 490,173 490,393 510,393" fill="none" stroke="#323130" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="472" y="148" width="30" height="18" rx="4" fill="#ffffff" fill-opacity="0.94"/>
+<text x="475" y="162" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#323130">Yes</text>
+<polyline points="445,198 445,240" fill="none" stroke="#323130" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="452" y="208" width="87.6" height="18" rx="4" fill="#ffffff" fill-opacity="0.94"/>
+<text x="455" y="222" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#323130">No / unknown</text>
+<polyline points="665,393 682,393 682,848 700,848" fill="none" stroke="#323130" stroke-width="2" marker-end="url(#arrow)"/>
+<polyline points="855,848 890,848" fill="none" stroke="#323130" stroke-width="2" marker-end="url(#arrow)"/>
+<polyline points="940,848 960,848 960,173 980,173" fill="none" stroke="#323130" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="942" y="823" width="65.7" height="18" rx="4" fill="#ffffff" fill-opacity="0.94"/>
+<text x="945" y="837" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#323130">Permitted</text>
+<polyline points="915,873 915,890" fill="none" stroke="#323130" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="927" y="873" width="146" height="18" rx="4" fill="#ffffff" fill-opacity="0.94"/>
+<text x="930" y="887" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#323130">Prohibited / unknown</text>
+<polyline points="1160,173 1178,173 1178,393 1195,393" fill="none" stroke="#323130" stroke-width="2" marker-end="url(#arrow)"/>
+<polyline points="1360,393 1380,393 1380,173 1395,173" fill="none" stroke="#323130" stroke-width="2" marker-end="url(#arrow)"/>
+<polyline points="1420,198 1420,600 1585,600" fill="none" stroke="#323130" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="1427" y="538" width="153.29999999999998" height="18" rx="4" fill="#ffffff" fill-opacity="0.94"/>
+<text x="1430" y="552" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#323130">Reuse retained source</text>
+<polyline points="1445,173 1475,173" fill="none" stroke="#323130" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="1445" y="148" width="87.6" height="18" rx="4" fill="#ffffff" fill-opacity="0.94"/>
+<text x="1448" y="162" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#323130">No inventory</text>
+<polyline points="1640,173 1655,173 1655,535 1570,535 1570,600 1585,600" fill="none" stroke="#323130" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="1572" y="513" width="146" height="18" rx="4" fill="#ffffff" fill-opacity="0.94"/>
+<text x="1575" y="527" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#323130">Store source version</text>
+<polyline points="1755,600 1788,600" fill="none" stroke="#323130" stroke-width="2" marker-end="url(#arrow)"/>
+<polyline points="1838,600 1875,600" fill="none" stroke="#323130" stroke-width="2" marker-end="url(#arrow)"/>
+<polyline points="1813,625 1813,695" fill="none" stroke="#323130" stroke-width="2" marker-end="url(#arrow)"/>
+<polyline points="2045,600 2080,600" fill="none" stroke="#323130" stroke-width="2" marker-end="url(#arrow)"/>
+<polyline points="2260,600 2295,600" fill="none" stroke="#323130" stroke-width="2" marker-end="url(#arrow)"/>
+<polyline points="2345,600 2370,600 2370,393 2390,393" fill="none" stroke="#323130" stroke-width="2" marker-end="url(#arrow)"/>
+<polyline points="2320,575 2320,215" fill="none" stroke="#323130" stroke-width="2" marker-end="url(#arrow)"/>
+<polyline points="2250,173 2060,173 2060,600 2080,600" fill="none" stroke="#323130" stroke-width="2" marker-end="url(#arrow)"/>
+<polyline points="2570,393 2605,393" fill="none" stroke="#323130" stroke-width="2" marker-end="url(#arrow)"/>
+<polyline points="2655,393 2890,393 2890,600 2910,600" fill="none" stroke="#323130" stroke-width="2" marker-end="url(#arrow)"/>
+<polyline points="2630,418 2630,450 2783,450 2783,435" fill="none" stroke="#323130" stroke-width="2" marker-end="url(#arrow)"/>
+<polyline points="2875,393 2890,393 2890,600 2910,600" fill="none" stroke="#323130" stroke-width="2" marker-end="url(#arrow)"/>
+<polyline points="2690,393 2668,393 2668,325 2480,325 2480,350" fill="none" stroke="#323130" stroke-width="2" marker-end="url(#arrow)"/>
+<polyline points="3085,600 3120,600" fill="none" stroke="#323130" stroke-width="2" marker-end="url(#arrow)"/>
+<polyline points="3170,600 3205,600" fill="none" stroke="#323130" stroke-width="2" marker-end="url(#arrow)"/>
+<polyline points="3145,625 3145,695" fill="none" stroke="#323130" stroke-width="2" marker-end="url(#arrow)"/>
+<polyline points="3395,600 3430,600" fill="none" stroke="#323130" stroke-width="2" marker-end="url(#arrow)"/>
+<polyline points="3610,600 3645,600" fill="none" stroke="#323130" stroke-width="2" marker-end="url(#arrow)"/>
+<polyline points="3825,600 3860,600" fill="none" stroke="#323130" stroke-width="2" marker-end="url(#arrow)"/>
+<polyline points="3910,600 3945,600" fill="none" stroke="#323130" stroke-width="2" marker-end="url(#arrow)"/>
+<polyline points="3885,575 3885,215" fill="none" stroke="#323130" stroke-width="2" marker-end="url(#arrow)"/>
+<polyline points="3815,173 2280,173 2280,675 2170,675 2170,645" fill="none" stroke="#323130" stroke-width="2" marker-end="url(#arrow)"/>
+<polyline points="4125,600 4143,600 4143,393 4160,393" fill="none" stroke="#323130" stroke-width="2" marker-end="url(#arrow)"/>
+<polyline points="4345,393 4362,393 4362,173 4380,173" fill="none" stroke="#323130" stroke-width="2" marker-end="url(#arrow)"/>
+<polyline points="4570,173 4605,173" fill="none" stroke="#323130" stroke-width="2" marker-end="url(#arrow)"/>
+<polyline points="4655,173 4690,173" fill="none" stroke="#323130" stroke-width="2" marker-end="url(#arrow)"/>
+<polyline points="4630,198 4630,225" fill="none" stroke="#323130" stroke-width="2" marker-end="url(#arrow)"/>
+<polyline points="4560,255 2300,255 2300,700 2150,700 2150,645" fill="none" stroke="#323130" stroke-width="2" marker-end="url(#arrow)"/>
+<polyline points="4875,165 4890,165 4890,600 4905,600" fill="none" stroke="#323130" stroke-width="2" marker-end="url(#arrow)"/>
+<polyline points="5085,600 5100,600 5100,165 5115,165" fill="none" stroke="#323130" stroke-width="2" marker-end="url(#arrow)"/>
+<polyline points="5290,165 5308,165 5308,173 5325,173" fill="none" stroke="#323130" stroke-width="2" marker-end="url(#arrow)"/>
+<polyline points="5375,173 5392,173 5392,848 5410,848" fill="none" stroke="#323130" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="5377" y="788" width="131.4" height="18" rx="4" fill="#ffffff" fill-opacity="0.94"/>
+<text x="5380" y="802" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#323130">Closed / completed</text>
+<polyline points="5350,198 5350,240" fill="none" stroke="#323130" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="5357" y="208" width="86" height="18" rx="4" fill="#ffffff" fill-opacity="0.94"/>
+<text x="5360" y="222" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#323130">Open / held</text>
+<polyline points="5590,848 5630,848" fill="none" stroke="#323130" stroke-width="2" marker-end="url(#arrow)"/>
+<polyline points="1318,675 1318,435" fill="none" stroke="#605e5c" stroke-width="1.5" stroke-dasharray="7 5"/>
+<polyline points="4995,645 4995,675" fill="none" stroke="#605e5c" stroke-width="1.5" stroke-dasharray="7 5"/>
+<polyline points="4475,130 4475,65" fill="none" stroke="#605e5c" stroke-width="1.5" stroke-dasharray="7 5"/>
+<circle cx="193" cy="173" r="18" fill="#ffffff" stroke="#107c10" stroke-width="3"/>
+<text x="193" y="208.44" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600" fill="#1b1a19"><tspan x="193" dy="0">Eligible claim</tspan><tspan x="193" dy="14.16">candidate selected</tspan></text>
+<rect x="240" y="130" width="145" height="85" rx="10" fill="#ffffff" stroke="#107c10" stroke-width="2.5" filter="url(#shadow)"/>
+<circle cx="256" cy="146" r="7" fill="none" stroke="#107c10" stroke-width="2"/><path d="M 247 162 Q 256 150 265 162" fill="none" stroke="#107c10" stroke-width="2"/>
+<text x="312.5" y="152.22" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600" fill="#1b1a19"><tspan x="312.5" dy="0">Confirm MVP</tspan><tspan x="312.5" dy="15.34">eligibility and</tspan><tspan x="312.5" dy="15.34">recommendation-only</tspan><tspan x="312.5" dy="15.34">use</tspan></text>
+<polygon points="445,148 470,173 445,198 420,173" fill="#fff4ce" stroke="#8a6d00" stroke-width="2.5" filter="url(#shadow)"/>
+<path d="M 437 165 L 453 181 M 453 165 L 437 181" stroke="#8a6d00" stroke-width="3"/>
+<text x="445" y="129.52" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600" fill="#1b1a19"><tspan x="445" dy="0">Eligible?</tspan></text>
+<circle cx="443" cy="258" r="18" fill="#ffffff" stroke="#d13438" stroke-width="4"/>
+<text x="443" y="300.52" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600" fill="#1b1a19"><tspan x="443" dy="0">Stop: outside MVP</tspan></text>
+<rect x="510" y="350" width="155" height="85" rx="10" fill="#ffffff" stroke="#0078d4" stroke-width="2.5" filter="url(#shadow)"/>
+<circle cx="526" cy="366" r="7" fill="none" stroke="#0078d4" stroke-width="2"/><path d="M 517 382 Q 526 370 535 382" fill="none" stroke="#0078d4" stroke-width="2"/>
+<text x="587.5" y="379.89" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600" fill="#1b1a19"><tspan x="587.5" dy="0">Authenticate and</tspan><tspan x="587.5" dy="15.34">authorize with</tspan><tspan x="587.5" dy="15.34">Entra ID</tspan></text>
+<rect x="700" y="805" width="155" height="85" rx="10" fill="#ffffff" stroke="#605e5c" stroke-width="2.5" filter="url(#shadow)"/>
+<rect x="707" y="813" width="20" height="18" fill="none" stroke="#605e5c" stroke-width="1.5"/><path d="M 707 819 H 727 M 714 813 V 831" stroke="#605e5c" stroke-width="1.2"/>
+<text x="777.5" y="842.56" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600" fill="#1b1a19"><tspan x="777.5" dy="0">Check permitted</tspan><tspan x="777.5" dy="15.34">data classification</tspan></text>
+<polygon points="915,823 940,848 915,873 890,848" fill="#fff4ce" stroke="#8a6d00" stroke-width="2.5" filter="url(#shadow)"/>
+<path d="M 907 840 L 923 856 M 923 840 L 907 856" stroke="#8a6d00" stroke-width="3"/>
+<text x="915" y="804.52" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600" fill="#1b1a19"><tspan x="915" dy="0">Classification allowed?</tspan></text>
+<circle cx="915" cy="908" r="18" fill="#ffffff" stroke="#d13438" stroke-width="4"/>
+<text x="915" y="943.44" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600" fill="#1b1a19"><tspan x="915" dy="0">Stop: data not</tspan><tspan x="915" dy="14.16">permitted</tspan></text>
+<rect x="980" y="130" width="180" height="85" rx="10" fill="#ffffff" stroke="#107c10" stroke-width="2.5" filter="url(#shadow)"/>
+<circle cx="996" cy="146" r="7" fill="none" stroke="#107c10" stroke-width="2"/><path d="M 987 162 Q 996 150 1005 162" fill="none" stroke="#107c10" stroke-width="2"/>
+<text x="1070" y="147" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600" fill="#1b1a19"><tspan x="1070" dy="0">Confirm claim ID,</tspan><tspan x="1070" dy="15.34">province, loss date,</tspan><tspan x="1070" dy="15.34">coverage,</tspan><tspan x="1070" dy="15.34">endorsements, and</tspan><tspan x="1070" dy="15.34">limits</tspan></text>
+<rect x="1195" y="350" width="165" height="85" rx="10" fill="#ffffff" stroke="#0078d4" stroke-width="2.5" filter="url(#shadow)"/>
+<text x="1277.5" y="379.89" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600" fill="#1b1a19"><tspan x="1277.5" dy="0">Load open persistent</tspan><tspan x="1277.5" dy="15.34">case and checkpoint,</tspan><tspan x="1277.5" dy="15.34">or create case</tspan></text>
+<polygon points="1420,148 1445,173 1420,198 1395,173" fill="#fff4ce" stroke="#8a6d00" stroke-width="2.5" filter="url(#shadow)"/>
+<path d="M 1412 165 L 1428 181 M 1428 165 L 1412 181" stroke="#8a6d00" stroke-width="3"/>
+<text x="1420" y="129.52" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600" fill="#1b1a19"><tspan x="1420" dy="0">Inventory retained?</tspan></text>
+<rect x="1475" y="130" width="165" height="85" rx="10" fill="#ffffff" stroke="#107c10" stroke-width="2.5" filter="url(#shadow)"/>
+<circle cx="1491" cy="146" r="7" fill="none" stroke="#107c10" stroke-width="2"/><path d="M 1482 162 Q 1491 150 1500 162" fill="none" stroke="#107c10" stroke-width="2"/>
+<text x="1557.5" y="147" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600" fill="#1b1a19"><tspan x="1557.5" dy="0">Upload inventory</tspan><tspan x="1557.5" dy="15.34">once or</tspan><tspan x="1557.5" dy="15.34">intentionally</tspan><tspan x="1557.5" dy="15.34">replace stored</tspan><tspan x="1557.5" dy="15.34">source</tspan></text>
+<path d="M 1260 683 C 1260 673, 1375 673, 1375 683 V 732 C 1375 742, 1260 742, 1260 732 Z" fill="#ffffff" stroke="#605e5c" stroke-width="2.5" filter="url(#shadow)"/>
+<ellipse cx="1317.5" cy="683" rx="57.5" ry="8" fill="#f3f2f1" stroke="#605e5c" stroke-width="2.5"/>
+<text x="1317.5" y="696" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="600" fill="#1b1a19"><tspan x="1317.5" dy="0">Persistent case</tspan><tspan x="1317.5" dy="12.979999999999999">store: original</tspan><tspan x="1317.5" dy="12.979999999999999">inventory,</tspan><tspan x="1317.5" dy="12.979999999999999">checkpoints,</tspan><tspan x="1317.5" dy="12.979999999999999">versions</tspan></text>
+<rect x="1585" y="555" width="170" height="90" rx="10" fill="#ffffff" stroke="#c76500" stroke-width="2.5" filter="url(#shadow)"/>
+<text x="1600" y="578" text-anchor="middle" font-family="Segoe UI Symbol, Arial" font-size="18" fill="#c76500">⚙</text>
+<text x="1670" y="587.39" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600" fill="#1b1a19"><tspan x="1670" dy="0">Validate file safety,</tspan><tspan x="1670" dy="15.34">type, size, hash, and</tspan><tspan x="1670" dy="15.34">template version</tspan></text>
+<polygon points="1813,575 1838,600 1813,625 1788,600" fill="#fff4ce" stroke="#8a6d00" stroke-width="2.5" filter="url(#shadow)"/>
+<path d="M 1805 592 L 1821 608 M 1821 592 L 1805 608" stroke="#8a6d00" stroke-width="3"/>
+<text x="1813" y="556.52" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600" fill="#1b1a19"><tspan x="1813" dy="0">File valid?</tspan></text>
+<circle cx="1813" cy="713" r="18" fill="#ffffff" stroke="#d13438" stroke-width="4"/>
+<text x="1813" y="748.44" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600" fill="#1b1a19"><tspan x="1813" dy="0">Stop: correct or</tspan><tspan x="1813" dy="14.16">safe file required</tspan></text>
+<rect x="1875" y="555" width="170" height="90" rx="10" fill="#ffffff" stroke="#c76500" stroke-width="2.5" filter="url(#shadow)"/>
+<text x="1890" y="578" text-anchor="middle" font-family="Segoe UI Symbol, Arial" font-size="18" fill="#c76500">⚙</text>
+<text x="1960" y="579.72" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600" fill="#1b1a19"><tspan x="1960" dy="0">Parse rows into</tspan><tspan x="1960" dy="15.34">canonical item</tspan><tspan x="1960" dy="15.34">records; preserve</tspan><tspan x="1960" dy="15.34">originals</tspan></text>
+<rect x="2080" y="555" width="180" height="90" rx="10" fill="#ffffff" stroke="#c76500" stroke-width="2.5" filter="url(#shadow)"/>
+<text x="2095" y="578" text-anchor="middle" font-family="Segoe UI Symbol, Arial" font-size="18" fill="#c76500">⚙</text>
+<text x="2170" y="579.72" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600" fill="#1b1a19"><tspan x="2170" dy="0">Validate fields,</tspan><tspan x="2170" dy="15.34">detect duplicates,</tspan><tspan x="2170" dy="15.34">normalize, and</tspan><tspan x="2170" dy="15.34">classify</tspan></text>
+<polygon points="2320,575 2345,600 2320,625 2295,600" fill="#fff4ce" stroke="#8a6d00" stroke-width="2.5" filter="url(#shadow)"/>
+<path d="M 2312 592 L 2328 608 M 2328 592 L 2312 608" stroke="#8a6d00" stroke-width="3"/>
+<text x="2320" y="556.52" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600" fill="#1b1a19"><tspan x="2320" dy="0">Material data complete?</tspan></text>
+<rect x="2250" y="130" width="180" height="85" rx="10" fill="#ffffff" stroke="#107c10" stroke-width="2.5" filter="url(#shadow)"/>
+<circle cx="2266" cy="146" r="7" fill="none" stroke="#107c10" stroke-width="2"/><path d="M 2257 162 Q 2266 150 2275 162" fill="none" stroke="#107c10" stroke-width="2"/>
+<text x="2340" y="159.89" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600" fill="#1b1a19"><tspan x="2340" dy="0">Correct data, resolve</tspan><tspan x="2340" dy="15.34">duplicate/classification,</tspan><tspan x="2340" dy="15.34">or hold item</tspan></text>
+<rect x="2390" y="350" width="180" height="85" rx="10" fill="#ffffff" stroke="#0078d4" stroke-width="2.5" filter="url(#shadow)"/>
+<text x="2480" y="379.89" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600" fill="#1b1a19"><tspan x="2480" dy="0">Research approved</tspan><tspan x="2480" dy="15.34">Canadian replacement</tspan><tspan x="2480" dy="15.34">sources</tspan></text>
+<polygon points="2630,368 2655,393 2630,418 2605,393" fill="#fff4ce" stroke="#8a6d00" stroke-width="2.5" filter="url(#shadow)"/>
+<path d="M 2622 385 L 2638 401 M 2638 385 L 2622 401" stroke="#8a6d00" stroke-width="3"/>
+<text x="2630" y="349.52" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600" fill="#1b1a19"><tspan x="2630" dy="0">Qualified comparator?</tspan></text>
+<rect x="2690" y="350" width="185" height="85" rx="10" fill="#ffffff" stroke="#0078d4" stroke-width="2.5" filter="url(#shadow)"/>
+<text x="2782.5" y="379.89" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600" fill="#1b1a19"><tspan x="2782.5" dy="0">Try alternate source or</tspan><tspan x="2782.5" dy="15.34">create flagged generic</tspan><tspan x="2782.5" dy="15.34">estimate</tspan></text>
+<rect x="2910" y="555" width="175" height="90" rx="10" fill="#ffffff" stroke="#c76500" stroke-width="2.5" filter="url(#shadow)"/>
+<text x="2925" y="578" text-anchor="middle" font-family="Segoe UI Symbol, Arial" font-size="18" fill="#c76500">⚙</text>
+<text x="2997.5" y="587.39" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600" fill="#1b1a19"><tspan x="2997.5" dy="0">Resolve immutable</tspan><tspan x="2997.5" dy="15.34">effective-dated rule</tspan><tspan x="2997.5" dy="15.34">set</tspan></text>
+<polygon points="3145,575 3170,600 3145,625 3120,600" fill="#fff4ce" stroke="#8a6d00" stroke-width="2.5" filter="url(#shadow)"/>
+<path d="M 3137 592 L 3153 608 M 3153 592 L 3137 608" stroke="#8a6d00" stroke-width="3"/>
+<text x="3145" y="556.52" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600" fill="#1b1a19"><tspan x="3145" dy="0">Approved rules available?</tspan></text>
+<circle cx="3145" cy="713" r="18" fill="#ffffff" stroke="#d13438" stroke-width="4"/>
+<text x="3145" y="748.44" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600" fill="#1b1a19"><tspan x="3145" dy="0">Hold: manual rule</tspan><tspan x="3145" dy="14.16">path</tspan></text>
+<rect x="3205" y="540" width="190" height="120" rx="10" fill="#ffffff" stroke="#c76500" stroke-width="2.5" filter="url(#shadow)"/>
+<rect x="3212" y="548" width="20" height="18" fill="none" stroke="#c76500" stroke-width="1.5"/><path d="M 3212 554 H 3232 M 3219 548 V 566" stroke="#c76500" stroke-width="1.2"/>
+<text x="3300" y="587.39" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600" fill="#1b1a19"><tspan x="3300" dy="0">Calculate RCV,</tspan><tspan x="3300" dy="15.34">depreciation, tax, ACV,</tspan><tspan x="3300" dy="15.34">limits, and rounding</tspan></text>
+<rect x="3430" y="555" width="180" height="90" rx="10" fill="#ffffff" stroke="#c76500" stroke-width="2.5" filter="url(#shadow)"/>
+<rect x="3437" y="563" width="20" height="18" fill="none" stroke="#c76500" stroke-width="1.5"/><path d="M 3437 569 H 3457 M 3444 563 V 581" stroke="#c76500" stroke-width="1.2"/>
+<text x="3520" y="587.39" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600" fill="#1b1a19"><tspan x="3520" dy="0">Apply coverage branch</tspan><tspan x="3520" dy="15.34">and payable</tspan><tspan x="3520" dy="15.34">recommendation basis</tspan></text>
+<rect x="3645" y="555" width="180" height="90" rx="10" fill="#ffffff" stroke="#c76500" stroke-width="2.5" filter="url(#shadow)"/>
+<text x="3660" y="578" text-anchor="middle" font-family="Segoe UI Symbol, Arial" font-size="18" fill="#c76500">⚙</text>
+<text x="3735" y="587.39" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600" fill="#1b1a19"><tspan x="3735" dy="0">Reconcile totals and</tspan><tspan x="3735" dy="15.34">run quality, limit,</tspan><tspan x="3735" dy="15.34">and invariant checks</tspan></text>
+<polygon points="3885,575 3910,600 3885,625 3860,600" fill="#fff4ce" stroke="#8a6d00" stroke-width="2.5" filter="url(#shadow)"/>
+<path d="M 3877 592 L 3893 608 M 3893 592 L 3877 608" stroke="#8a6d00" stroke-width="3"/>
+<text x="3885" y="556.52" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600" fill="#1b1a19"><tspan x="3885" dy="0">Quality gates pass?</tspan></text>
+<rect x="3815" y="130" width="190" height="85" rx="10" fill="#ffffff" stroke="#107c10" stroke-width="2.5" filter="url(#shadow)"/>
+<circle cx="3831" cy="146" r="7" fill="none" stroke="#107c10" stroke-width="2"/><path d="M 3822 162 Q 3831 150 3840 162" fill="none" stroke="#107c10" stroke-width="2"/>
+<text x="3910" y="152.22" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600" fill="#1b1a19"><tspan x="3910" dy="0">Resolve high-value,</tspan><tspan x="3910" dy="15.34">over-limit, specialty,</tspan><tspan x="3910" dy="15.34">evidence, or rule</tspan><tspan x="3910" dy="15.34">exceptions</tspan></text>
+<rect x="3945" y="555" width="180" height="90" rx="10" fill="#ffffff" stroke="#c76500" stroke-width="2.5" filter="url(#shadow)"/>
+<text x="3960" y="578" text-anchor="middle" font-family="Segoe UI Symbol, Arial" font-size="18" fill="#c76500">⚙</text>
+<text x="4035" y="587.39" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600" fill="#1b1a19"><tspan x="4035" dy="0">Generate macro-free</tspan><tspan x="4035" dy="15.34">workbook and</tspan><tspan x="4035" dy="15.34">calculation trace</tspan></text>
+<rect x="4160" y="350" width="185" height="85" rx="10" fill="#ffffff" stroke="#0078d4" stroke-width="2.5" filter="url(#shadow)"/>
+<text x="4252.5" y="372.22" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600" fill="#1b1a19"><tspan x="4252.5" dy="0">Draft claim-note</tspan><tspan x="4252.5" dy="15.34">summary and present</tspan><tspan x="4252.5" dy="15.34">unapproved</tspan><tspan x="4252.5" dy="15.34">recommendation</tspan></text>
+<rect x="4380" y="130" width="190" height="85" rx="10" fill="#ffffff" stroke="#107c10" stroke-width="2.5" filter="url(#shadow)"/>
+<circle cx="4396" cy="146" r="7" fill="none" stroke="#107c10" stroke-width="2"/><path d="M 4387 162 Q 4396 150 4405 162" fill="none" stroke="#107c10" stroke-width="2"/>
+<text x="4475" y="152.22" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600" fill="#1b1a19"><tspan x="4475" dy="0">Inspect evidence,</tspan><tspan x="4475" dy="15.34">sources, calculations,</tspan><tspan x="4475" dy="15.34">exceptions, and</tspan><tspan x="4475" dy="15.34">versions</tspan></text>
+<polygon points="4630,148 4655,173 4630,198 4605,173" fill="#fff4ce" stroke="#8a6d00" stroke-width="2.5" filter="url(#shadow)"/>
+<path d="M 4622 165 L 4638 181 M 4638 165 L 4622 181" stroke="#8a6d00" stroke-width="3"/>
+<text x="4630" y="129.52" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600" fill="#1b1a19"><tspan x="4630" dy="0">Adjuster approves?</tspan></text>
+<rect x="4560" y="225" width="190" height="60" rx="10" fill="#ffffff" stroke="#107c10" stroke-width="2.5" filter="url(#shadow)"/>
+<circle cx="4576" cy="241" r="7" fill="none" stroke="#107c10" stroke-width="2"/><path d="M 4567 257 Q 4576 245 4585 257" fill="none" stroke="#107c10" stroke-width="2"/>
+<text x="4655" y="243.36" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600" fill="#1b1a19"><tspan x="4655" dy="0">Correct, override with</tspan><tspan x="4655" dy="14.16">reason, request research,</tspan><tspan x="4655" dy="14.16">or hold</tspan></text>
+<rect x="4690" y="115" width="185" height="100" rx="10" fill="#ffffff" stroke="#107c10" stroke-width="2.5" filter="url(#shadow)"/>
+<circle cx="4706" cy="131" r="7" fill="none" stroke="#107c10" stroke-width="2"/><path d="M 4697 147 Q 4706 135 4715 147" fill="none" stroke="#107c10" stroke-width="2"/>
+<text x="4782.5" y="144.72" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600" fill="#1b1a19"><tspan x="4782.5" dy="0">Manually file or</tspan><tspan x="4782.5" dy="15.34">transfer approved</tspan><tspan x="4782.5" dy="15.34">package in claims</tspan><tspan x="4782.5" dy="15.34">process</tspan></text>
+<rect x="4905" y="555" width="180" height="90" rx="10" fill="#ffffff" stroke="#c76500" stroke-width="2.5" filter="url(#shadow)"/>
+<text x="4920" y="578" text-anchor="middle" font-family="Segoe UI Symbol, Arial" font-size="18" fill="#c76500">⚙</text>
+<text x="4995" y="579.72" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600" fill="#1b1a19"><tspan x="4995" dy="0">Persist approval,</tspan><tspan x="4995" dy="15.34">package version,</tspan><tspan x="4995" dy="15.34">inventory, and</tspan><tspan x="4995" dy="15.34">resumable checkpoint</tspan></text>
+<path d="M 4938 683 C 4938 673, 5053 673, 5053 683 V 732 C 5053 742, 4938 742, 4938 732 Z" fill="#ffffff" stroke="#605e5c" stroke-width="2.5" filter="url(#shadow)"/>
+<ellipse cx="4995.5" cy="683" rx="57.5" ry="8" fill="#f3f2f1" stroke="#605e5c" stroke-width="2.5"/>
+<text x="4995.5" y="696" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="600" fill="#1b1a19"><tspan x="4995.5" dy="0">Persistent case</tspan><tspan x="4995.5" dy="12.979999999999999">store: original</tspan><tspan x="4995.5" dy="12.979999999999999">inventory,</tspan><tspan x="4995.5" dy="12.979999999999999">checkpoints,</tspan><tspan x="4995.5" dy="12.979999999999999">versions</tspan></text>
+<rect x="5115" y="115" width="175" height="100" rx="10" fill="#ffffff" stroke="#107c10" stroke-width="2.5" filter="url(#shadow)"/>
+<circle cx="5131" cy="131" r="7" fill="none" stroke="#107c10" stroke-width="2"/><path d="M 5122 147 Q 5131 135 5140 147" fill="none" stroke="#107c10" stroke-width="2"/>
+<text x="5202.5" y="160.06" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600" fill="#1b1a19"><tspan x="5202.5" dy="0">Confirm external</tspan><tspan x="5202.5" dy="15.34">claim status</tspan></text>
+<polygon points="5350,148 5375,173 5350,198 5325,173" fill="#fff4ce" stroke="#8a6d00" stroke-width="2.5" filter="url(#shadow)"/>
+<path d="M 5342 165 L 5358 181 M 5358 165 L 5342 181" stroke="#8a6d00" stroke-width="3"/>
+<text x="5350" y="122.44" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600" fill="#1b1a19"><tspan x="5350" dy="0">Claim closed or</tspan><tspan x="5350" dy="14.16">completed?</tspan></text>
+<circle cx="5350" cy="258" r="18" fill="#ffffff" stroke="#d13438" stroke-width="4"/>
+<text x="5350" y="291" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600" fill="#1b1a19"><tspan x="5350" dy="0">Case retained:</tspan><tspan x="5350" dy="14.16">resume later</tspan><tspan x="5350" dy="14.16">without re-upload</tspan></text>
+<rect x="5410" y="805" width="180" height="85" rx="10" fill="#ffffff" stroke="#605e5c" stroke-width="2.5" filter="url(#shadow)"/>
+<text x="5425" y="828" text-anchor="middle" font-family="Segoe UI Symbol, Arial" font-size="18" fill="#605e5c">⚙</text>
+<text x="5500" y="834.89" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600" fill="#1b1a19"><tspan x="5500" dy="0">Record approval, audit</tspan><tspan x="5500" dy="15.34">evidence, metrics,</tspan><tspan x="5500" dy="15.34">retention, and closure</tspan></text>
+<circle cx="5648" cy="848" r="18" fill="#ffffff" stroke="#d13438" stroke-width="4"/>
+<text x="5648" y="881" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600" fill="#1b1a19"><tspan x="5648" dy="0">Persistent</tspan><tspan x="5648" dy="14.16">valuation case</tspan><tspan x="5648" dy="14.16">closed under</tspan><tspan x="5648" dy="14.16">retention</tspan></text>
+<path d="M 4332 10 H 4320 V 65 H 4332" fill="none" stroke="#d13438" stroke-width="3"/>
+<text x="4634" y="32.56" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600" fill="#1b1a19"><tspan x="4634" dy="0">Licensed adjuster retains authority for coverage interpretation, settlement,</tspan><tspan x="4634" dy="15.34">payment, denial, filing, and customer communication.</tspan></text>
+<g transform="translate(120,952)"><circle cx="8" cy="-5" r="6" fill="#107c10"/><text x="22" y="0" font-family="Segoe UI, Arial" font-size="13">Start</text><circle cx="105" cy="-5" r="6" fill="#ffffff" stroke="#d13438" stroke-width="3"/><text x="120" y="0" font-family="Segoe UI, Arial" font-size="13">Stop / hold</text><polygon points="230,-13 238,-5 230,3 222,-5" fill="#fff4ce" stroke="#8a6d00"/><text x="248" y="0" font-family="Segoe UI, Arial" font-size="13">Exclusive decision</text><rect x="395" y="-15" width="25" height="20" rx="4" fill="#ffffff" stroke="#107c10" stroke-width="2"/><text x="430" y="0" font-family="Segoe UI, Arial" font-size="13">Human task</text><rect x="525" y="-15" width="25" height="20" rx="4" fill="#ffffff" stroke="#c76500" stroke-width="2"/><text x="560" y="0" font-family="Segoe UI, Arial" font-size="13">Deterministic service</text></g>
+</svg>

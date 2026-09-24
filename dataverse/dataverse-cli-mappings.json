@@ -1,0 +1,82 @@
+{
+  "apiRoot": "/api/data/v9.2",
+  "target": "dataverse",
+  "headers": {
+    "Accept": "application/json",
+    "Content-Type": "application/json; charset=utf-8",
+    "OData-MaxVersion": "4.0",
+    "OData-Version": "4.0",
+    "MSCRM.SolutionUniqueName": "{solutionUniqueName}"
+  },
+  "naming": {
+    "schemaName": "{publisherPrefix}_{name}",
+    "logicalName": "{publisherPrefix}_{name}:lowercase",
+    "primaryId": "{logicalTableName}id"
+  },
+  "endpoints": {
+    "tableCollection": "EntityDefinitions",
+    "tableByLogicalName": "EntityDefinitions(LogicalName='{tableLogicalName}')",
+    "columnCollection": "EntityDefinitions(LogicalName='{tableLogicalName}')/Attributes",
+    "columnByLogicalName": "EntityDefinitions(LogicalName='{tableLogicalName}')/Attributes(LogicalName='{columnLogicalName}')",
+    "relationshipCollection": "RelationshipDefinitions",
+    "relationshipQuery": "RelationshipDefinitions?$select=MetadataId&$filter={encodedFilter}",
+    "keyCollection": "EntityDefinitions(LogicalName='{tableLogicalName}')/Keys",
+    "keyQuery": "EntityDefinitions(LogicalName='{tableLogicalName}')/Keys?$select=MetadataId&$filter={encodedFilter}",
+    "publish": "PublishAllXml"
+  },
+  "metadataTypes": {
+    "table": "Microsoft.Dynamics.CRM.EntityMetadata",
+    "primaryName": "Microsoft.Dynamics.CRM.StringAttributeMetadata",
+    "relationship": "Microsoft.Dynamics.CRM.OneToManyRelationshipMetadata",
+    "lookup": "Microsoft.Dynamics.CRM.LookupAttributeMetadata",
+    "key": "Microsoft.Dynamics.CRM.EntityKeyMetadata"
+  },
+  "columnTypes": {
+    "String": {
+      "odataType": "Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "attributeType": "String",
+      "attributeTypeName": "StringType"
+    },
+    "Memo": {
+      "odataType": "Microsoft.Dynamics.CRM.MemoAttributeMetadata",
+      "attributeType": "Memo",
+      "attributeTypeName": "MemoType"
+    },
+    "Integer": {
+      "odataType": "Microsoft.Dynamics.CRM.IntegerAttributeMetadata",
+      "attributeType": "Integer",
+      "attributeTypeName": "IntegerType"
+    },
+    "Decimal": {
+      "odataType": "Microsoft.Dynamics.CRM.DecimalAttributeMetadata",
+      "attributeType": "Decimal",
+      "attributeTypeName": "DecimalType"
+    },
+    "DateTime": {
+      "odataType": "Microsoft.Dynamics.CRM.DateTimeAttributeMetadata",
+      "attributeType": "DateTime",
+      "attributeTypeName": "DateTimeType"
+    },
+    "Boolean": {
+      "odataType": "Microsoft.Dynamics.CRM.BooleanAttributeMetadata",
+      "attributeType": "Boolean",
+      "attributeTypeName": "BooleanType"
+    },
+    "Choice": {
+      "odataType": "Microsoft.Dynamics.CRM.PicklistAttributeMetadata",
+      "attributeType": "Picklist",
+      "attributeTypeName": "PicklistType"
+    },
+    "File": {
+      "odataType": "Microsoft.Dynamics.CRM.FileAttributeMetadata",
+      "attributeTypeName": "FileType"
+    }
+  },
+  "deploymentOrder": [
+    "tables",
+    "columns",
+    "relationships",
+    "keys",
+    "publish"
+  ]
+}
