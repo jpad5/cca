@@ -34,7 +34,7 @@ Use these persisted case states:
 
 ### 1. Open or resume valuation case
 
-**Tool name:** `OpenValuationCase`
+**Tool name:** [`OpenValuationCase`](OpenValuationCase.md)
 
 **Inputs:** `claimId` (text, required)
 
@@ -50,7 +50,7 @@ Use these persisted case states:
 
 ### 2. Confirm eligibility
 
-**Tool name:** `ConfirmMvpEligibility`
+**Tool name:** [`ConfirmMvpEligibility`](ConfirmMvpEligibility.md)
 
 **Required state:** `Candidate`
 
@@ -60,7 +60,7 @@ Use these persisted case states:
 
 ### 3. Authorize case data
 
-**Tool name:** `AuthorizeCaseData`
+**Tool name:** [`AuthorizeCaseData`](AuthorizeCaseData.md)
 
 **Required state:** `EligibilityConfirmed`
 
@@ -70,7 +70,7 @@ Use these persisted case states:
 
 ### 4. Confirm claim facts
 
-**Tool name:** `ConfirmClaimFacts`
+**Tool name:** [`ConfirmClaimFacts`](ConfirmClaimFacts.md)
 
 **Required state:** `AccessAuthorized`
 
@@ -80,7 +80,7 @@ Use these persisted case states:
 
 ### 5. Upload inventory source
 
-**Tool name:** `UploadInventorySource`
+**Tool name:** [`UploadInventorySource`](UploadInventorySource.md)
 
 **Required state:** `CaseReady`
 
@@ -98,7 +98,7 @@ Do not return file bytes or inventory contents to the agent.
 
 ### 6. Parse and validate inventory
 
-**Tool name:** `ValidateAndParseInventory`
+**Tool name:** [`ValidateAndParseInventory`](ValidateAndParseInventory.md)
 
 **Required state:** `InventoryAccepted`
 
@@ -108,7 +108,7 @@ Do not return file bytes or inventory contents to the agent.
 
 ### 7. Resolve inventory issues
 
-**Tool name:** `SubmitInventoryResolution`
+**Tool name:** [`SubmitInventoryResolution`](SubmitInventoryResolution.md)
 
 **Required state:** `InventoryReview` or `HeldInventoryIncomplete`
 
@@ -118,7 +118,7 @@ Do not return file bytes or inventory contents to the agent.
 
 ### 8. Research approved replacement sources
 
-**Tool name:** `RunApprovedResearch`
+**Tool name:** [`RunApprovedResearch`](RunApprovedResearch.md)
 
 **Required state:** `InventoryComplete`
 
@@ -128,7 +128,7 @@ Do not return file bytes or inventory contents to the agent.
 
 ### 9. Resolve valuation rules
 
-**Tool name:** `ResolveValuationRules`
+**Tool name:** [`ResolveValuationRules`](ResolveValuationRules.md)
 
 **Required state:** `ResearchComplete`
 
@@ -138,7 +138,7 @@ Do not return file bytes or inventory contents to the agent.
 
 ### 10. Run deterministic valuation
 
-**Tool name:** `RunDeterministicValuation`
+**Tool name:** [`RunDeterministicValuation`](RunDeterministicValuation.md)
 
 **Required state:** `RulesResolved`
 
@@ -148,7 +148,7 @@ Do not return file bytes or inventory contents to the agent.
 
 ### 11. Run quality gates
 
-**Tool name:** `RunValuationQualityGates`
+**Tool name:** [`RunValuationQualityGates`](RunValuationQualityGates.md)
 
 **Required state:** `Calculated`
 
@@ -158,7 +158,7 @@ Do not return file bytes or inventory contents to the agent.
 
 ### 12. Resolve valuation exception
 
-**Tool name:** `ResolveValuationException`
+**Tool name:** [`ResolveValuationException`](ResolveValuationException.md)
 
 **Required state:** A supported hold state
 
@@ -168,7 +168,7 @@ Do not return file bytes or inventory contents to the agent.
 
 ### 13. Generate valuation package
 
-**Tool name:** `GenerateValuationPackage`
+**Tool name:** [`GenerateValuationPackage`](GenerateValuationPackage.md)
 
 **Required state:** `QualityPassed`
 
@@ -178,7 +178,7 @@ Do not return file bytes or inventory contents to the agent.
 
 ### 14. Prepare package decision
 
-**Tool name:** `PreparePackageDecision`
+**Tool name:** [`PreparePackageDecision`](PreparePackageDecision.md)
 
 **Required state:** `PackageReady`
 
@@ -190,7 +190,7 @@ Do not return file bytes or inventory contents to the agent.
 
 ### 15. Submit package decision
 
-**Tool name:** `SubmitPackageDecision`
+**Tool name:** [`SubmitPackageDecision`](SubmitPackageDecision.md)
 
 **Required state:** `PendingApproval`
 
@@ -200,7 +200,7 @@ Do not return file bytes or inventory contents to the agent.
 
 ### 16. Record external filing
 
-**Tool name:** `RecordExternalFiling`
+**Tool name:** [`RecordExternalFiling`](RecordExternalFiling.md)
 
 **Required state:** `Approved`
 
@@ -210,7 +210,7 @@ Do not return file bytes or inventory contents to the agent.
 
 ### 17. Record external claim status
 
-**Tool name:** `RecordExternalClaimStatus`
+**Tool name:** [`RecordExternalClaimStatus`](RecordExternalClaimStatus.md)
 
 **Required state:** `ExternallyFiled` or `OpenExternal`
 
