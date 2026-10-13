@@ -1,0 +1,22 @@
+Stock imagery sourced from Pexels under the Pexels license: https://www.pexels.com/license/
+
+catastrophe: https://www.pexels.com/search/wildfire%20house/
+  https://images.pexels.com/photos/31126215/pexels-photo-31126215/free-photo-of-aerial-view-of-smoky-forest-near-rossville-georgia.jpeg?h=1080&w=1920&fit=crop
+adjuster: https://www.pexels.com/search/professional%20woman%20office/
+  https://images.pexels.com/photos/27086922/pexels-photo-27086922/free-photo-of-a-woman-in-a-business-suit-smiling.jpeg?h=1080&w=1920&fit=crop
+inventory: https://www.pexels.com/search/spreadsheet%20data%20analysis/
+  https://images.pexels.com/photos/7947999/pexels-photo-7947999.jpeg?h=1080&w=1920&fit=crop
+workflow: https://www.pexels.com/search/digital%20workflow%20technology/
+  https://images.pexels.com/photos/6913234/pexels-photo-6913234.jpeg?h=1080&w=1920&fit=crop
+household: https://www.pexels.com/search/home%20inventory%20household%20items/
+  https://images.pexels.com/photos/31871391/pexels-photo-31871391/free-photo-of-organized-kitchen-cabinet-with-dishes-and-glassware.jpeg?h=1080&w=1920&fit=crop
+research: https://www.pexels.com/search/professional%20research%20laptop/
+  https://images.pexels.com/photos/8657292/pexels-photo-8657292.jpeg?h=1080&w=1920&fit=crop
+decision: https://www.pexels.com/search/business%20woman%20reviewing%20documents/
+  https://images.pexels.com/photos/6077496/pexels-photo-6077496.jpeg?h=1080&w=1920&fit=crop
+recovery: https://www.pexels.com/search/family%20home%20recovery/
+  https://images.pexels.com/photos/6753540/pexels-photo-6753540.jpeg?h=1080&w=1920&fit=crop
+adjuster replacement: https://www.pexels.com/search/professional%20woman%20laptop%20office%20portrait/
+  https://images.pexels.com/photos/8278977/pexels-photo-8278977.jpeg?h=1080&w=1920&fit=crop
+adjuster final: https://www.pexels.com/search/professional%20woman%20working%20at%20desk/
+  https://images.pexels.com/photos/7964562/pexels-photo-7964562.jpeg
